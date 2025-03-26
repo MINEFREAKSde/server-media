@@ -1,0 +1,39 @@
+{
+    "server_name": "minefreaksde",
+    "nice_name": "MinefreaksDE",
+    "direct_ip": "minefreaks.de",
+    "server_wildcards": [
+      "%.minefreaks.de"
+    ],
+    "supported_languages": [
+      "de",
+      "en"
+    ],
+    "social": {
+      "discord": "https://discord.gg/mXa2YvFFyG",
+    },
+    "gamemodes": {
+      "murder-mystery": {
+          "name": "Murder Mystery",
+          "color": "#ffffff",
+          "command": "/minigames",
+          "versions": "1.20 >"
+      },
+      "smp": {
+        "name": "SMP",
+        "color": "#ffffff",
+        "command": "/server smp-1",
+        "versions": "1.20 >"
+      },
+      "citybuild": {
+        "name": "Citybuild",
+        "color": "#ffffff",
+        "versions": "1.20 >*"
+      },
+      "freebuild": {
+        "name": "PartyPvP",
+        "color": "#ffffff",
+        "command": "/server citybuild-1",
+        "versions": "1.8<*"
+      }
+  }
